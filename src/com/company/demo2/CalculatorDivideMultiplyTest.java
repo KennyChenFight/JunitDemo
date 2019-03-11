@@ -7,7 +7,7 @@ public class CalculatorDivideMultiplyTest {
         suite.add(new CalculatorDivideTest());
         suite.add(new CalculatorMultiplyTest());
         return suite;
-    }
+}
 
     public static void main(String[] args) {
         TestRunner.run(suite());
